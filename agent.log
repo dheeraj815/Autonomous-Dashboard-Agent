@@ -1,0 +1,339 @@
+2026-03-25 20:15:08 | INFO     | Database initialized.
+2026-03-25 20:15:08 | INFO     | Seeding historical data...
+2026-03-25 20:15:08 | INFO     | Seeded 7,200 metric records.
+2026-03-25 20:15:08 | INFO     | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-25 20:15:08 | INFO     | Added job "run_agent_pipeline" to job store "default"
+2026-03-25 20:15:08 | INFO     | Scheduler started
+2026-03-25 20:15:08 | INFO     | Scheduler started — pipeline every 30s
+2026-03-25 20:15:08 | INFO     | Session initialized.
+2026-03-25 20:15:20 | INFO     | Database initialized.
+2026-03-25 20:15:20 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:15:20 | INFO     | Live tick: 30 records in 22.5ms
+2026-03-25 20:15:20 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 59.4ms \u2500\u2500\u2500
+2026-03-25 20:15:30 | INFO     | Database initialized.
+2026-03-25 20:15:30 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:15:31 | INFO     | Live tick: 30 records in 29.7ms
+2026-03-25 20:15:31 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 74.2ms \u2500\u2500\u2500
+2026-03-25 20:15:33 | INFO     | Database initialized.
+2026-03-25 20:15:34 | INFO     | Database initialized.
+2026-03-25 20:15:36 | INFO     | Database initialized.
+2026-03-25 20:15:38 | INFO     | Database initialized.
+2026-03-25 20:15:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:15:38 IST)" (scheduled at 2026-03-25 20:15:38.775213+05:30)
+2026-03-25 20:15:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:15:38 | INFO     | Live tick: 30 records in 140.5ms
+2026-03-25 20:15:39 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=10.03 vs target=12.00 (deviation 16.4%)
+2026-03-25 20:15:39 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 386.0ms \u2500\u2500\u2500
+2026-03-25 20:15:39 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:16:08 IST)" executed successfully
+2026-03-25 20:15:40 | INFO     | Database initialized.
+2026-03-25 20:15:42 | INFO     | Database initialized.
+2026-03-25 20:15:44 | INFO     | Database initialized.
+2026-03-25 20:15:45 | INFO     | Database initialized.
+2026-03-25 20:15:45 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:15:45 | INFO     | Live tick: 30 records in 26.2ms
+2026-03-25 20:15:45 | WARNING  | [THRESHOLD] KPI breach on Conversion Rate: current=3.66 vs target=4.50 (deviation 18.7%)
+2026-03-25 20:15:45 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 84.1ms \u2500\u2500\u2500
+2026-03-25 20:15:45 | INFO     | Database initialized.
+2026-03-25 20:15:45 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:15:45 | INFO     | Live tick: 30 records in 18.0ms
+2026-03-25 20:15:45 | WARNING  | [ANOMALY] Anomaly on Avg Response (ms): value=155.26 (z=2.70, \u03bc=115.50, \u03c3=14.75)
+2026-03-25 20:15:45 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 104.3ms \u2500\u2500\u2500
+2026-03-25 20:15:47 | INFO     | Database initialized.
+2026-03-25 20:15:49 | INFO     | Database initialized.
+2026-03-25 20:15:51 | INFO     | Database initialized.
+2026-03-25 20:15:52 | INFO     | Database initialized.
+2026-03-25 20:15:53 | INFO     | Database initialized.
+2026-03-25 20:15:55 | INFO     | Database initialized.
+2026-03-25 20:15:57 | INFO     | Database initialized.
+2026-03-25 20:15:59 | INFO     | Database initialized.
+2026-03-25 20:16:01 | INFO     | Database initialized.
+2026-03-25 20:16:03 | INFO     | Database initialized.
+2026-03-25 20:16:05 | INFO     | Database initialized.
+2026-03-25 20:16:07 | INFO     | Database initialized.
+2026-03-25 20:16:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:16:38 IST)" (scheduled at 2026-03-25 20:16:08.775213+05:30)
+2026-03-25 20:16:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:16:08 | INFO     | Live tick: 30 records in 145.1ms
+2026-03-25 20:16:09 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=10.19 vs target=12.00 (deviation 15.1%)
+2026-03-25 20:16:09 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 380.0ms \u2500\u2500\u2500
+2026-03-25 20:16:09 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:16:38 IST)" executed successfully
+2026-03-25 20:16:10 | INFO     | Database initialized.
+2026-03-25 20:16:12 | INFO     | Database initialized.
+2026-03-25 20:16:14 | INFO     | Database initialized.
+2026-03-25 20:16:16 | INFO     | Database initialized.
+2026-03-25 20:16:19 | INFO     | Database initialized.
+2026-03-25 20:16:21 | INFO     | Database initialized.
+2026-03-25 20:16:23 | INFO     | Database initialized.
+2026-03-25 20:16:25 | INFO     | Database initialized.
+2026-03-25 20:16:27 | INFO     | Database initialized.
+2026-03-25 20:16:29 | INFO     | Database initialized.
+2026-03-25 20:16:32 | INFO     | Database initialized.
+2026-03-25 20:16:34 | INFO     | Database initialized.
+2026-03-25 20:16:36 | INFO     | Database initialized.
+2026-03-25 20:16:38 | INFO     | Database initialized.
+2026-03-25 20:16:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:17:08 IST)" (scheduled at 2026-03-25 20:16:38.775213+05:30)
+2026-03-25 20:16:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:16:38 | INFO     | Live tick: 30 records in 54.9ms
+2026-03-25 20:16:39 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 295.9ms \u2500\u2500\u2500
+2026-03-25 20:16:39 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:17:08 IST)" executed successfully
+2026-03-25 20:16:40 | INFO     | Database initialized.
+2026-03-25 20:16:43 | INFO     | Database initialized.
+2026-03-25 20:16:45 | INFO     | Database initialized.
+2026-03-25 20:16:47 | INFO     | Database initialized.
+2026-03-25 20:16:49 | INFO     | Database initialized.
+2026-03-25 20:16:51 | INFO     | Database initialized.
+2026-03-25 20:16:54 | INFO     | Database initialized.
+2026-03-25 20:16:56 | INFO     | Database initialized.
+2026-03-25 20:16:58 | INFO     | Database initialized.
+2026-03-25 20:17:00 | INFO     | Database initialized.
+2026-03-25 20:17:02 | INFO     | Database initialized.
+2026-03-25 20:17:04 | INFO     | Database initialized.
+2026-03-25 20:17:06 | INFO     | Database initialized.
+2026-03-25 20:17:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:17:38 IST)" (scheduled at 2026-03-25 20:17:08.775213+05:30)
+2026-03-25 20:17:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:17:08 | INFO     | Live tick: 30 records in 35.2ms
+2026-03-25 20:17:08 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=10.08 vs target=12.00 (deviation 16.0%)
+2026-03-25 20:17:08 | WARNING  | [THRESHOLD] KPI breach on Conversion Rate: current=3.81 vs target=4.50 (deviation 15.3%)
+2026-03-25 20:17:09 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 2 alerts in 145.9ms \u2500\u2500\u2500
+2026-03-25 20:17:09 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:17:38 IST)" executed successfully
+2026-03-25 20:17:09 | INFO     | Database initialized.
+2026-03-25 20:17:11 | INFO     | Database initialized.
+2026-03-25 20:17:13 | INFO     | Database initialized.
+2026-03-25 20:17:15 | INFO     | Database initialized.
+2026-03-25 20:17:17 | INFO     | Database initialized.
+2026-03-25 20:17:19 | INFO     | Database initialized.
+2026-03-25 20:17:22 | INFO     | Database initialized.
+2026-03-25 20:17:24 | INFO     | Database initialized.
+2026-03-25 20:17:26 | INFO     | Database initialized.
+2026-03-25 20:17:28 | INFO     | Database initialized.
+2026-03-25 20:17:30 | INFO     | Database initialized.
+2026-03-25 20:17:32 | INFO     | Database initialized.
+2026-03-25 20:17:35 | INFO     | Database initialized.
+2026-03-25 20:17:37 | INFO     | Database initialized.
+2026-03-25 20:17:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:18:08 IST)" (scheduled at 2026-03-25 20:17:38.775213+05:30)
+2026-03-25 20:17:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:17:38 | INFO     | Live tick: 30 records in 37.7ms
+2026-03-25 20:17:38 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=9.50 vs target=12.00 (deviation 20.8%)
+2026-03-25 20:17:38 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 94.6ms \u2500\u2500\u2500
+2026-03-25 20:17:38 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:18:08 IST)" executed successfully
+2026-03-25 20:17:39 | INFO     | Database initialized.
+2026-03-25 20:17:41 | INFO     | Database initialized.
+2026-03-25 20:17:42 | INFO     | Database initialized.
+2026-03-25 20:17:43 | INFO     | Database initialized.
+2026-03-25 20:17:45 | INFO     | Database initialized.
+2026-03-25 20:17:47 | INFO     | Database initialized.
+2026-03-25 20:17:50 | INFO     | Database initialized.
+2026-03-25 20:17:52 | INFO     | Database initialized.
+2026-03-25 20:17:54 | INFO     | Database initialized.
+2026-03-25 20:17:56 | INFO     | Database initialized.
+2026-03-25 20:17:58 | INFO     | Database initialized.
+2026-03-25 20:18:00 | INFO     | Database initialized.
+2026-03-25 20:18:03 | INFO     | Database initialized.
+2026-03-25 20:18:05 | INFO     | Database initialized.
+2026-03-25 20:18:07 | INFO     | Database initialized.
+2026-03-25 20:18:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:18:38 IST)" (scheduled at 2026-03-25 20:18:08.775213+05:30)
+2026-03-25 20:18:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:18:08 | INFO     | Live tick: 30 records in 76.0ms
+2026-03-25 20:18:09 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 138.6ms \u2500\u2500\u2500
+2026-03-25 20:18:09 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:18:38 IST)" executed successfully
+2026-03-25 20:18:09 | INFO     | Database initialized.
+2026-03-25 20:18:11 | INFO     | Database initialized.
+2026-03-25 20:18:13 | INFO     | Database initialized.
+2026-03-25 20:18:16 | INFO     | Database initialized.
+2026-03-25 20:18:18 | INFO     | Database initialized.
+2026-03-25 20:18:20 | INFO     | Database initialized.
+2026-03-25 20:18:22 | INFO     | Database initialized.
+2026-03-25 20:18:24 | INFO     | Database initialized.
+2026-03-25 20:18:27 | INFO     | Database initialized.
+2026-03-25 20:18:29 | INFO     | Database initialized.
+2026-03-25 20:18:31 | INFO     | Database initialized.
+2026-03-25 20:18:34 | INFO     | Database initialized.
+2026-03-25 20:18:35 | INFO     | Database initialized.
+2026-03-25 20:18:37 | INFO     | Database initialized.
+2026-03-25 20:18:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:19:08 IST)" (scheduled at 2026-03-25 20:18:38.775213+05:30)
+2026-03-25 20:18:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:18:39 | INFO     | Live tick: 30 records in 203.3ms
+2026-03-25 20:18:39 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=9.68 vs target=12.00 (deviation 19.3%)
+2026-03-25 20:18:39 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 532.0ms \u2500\u2500\u2500
+2026-03-25 20:18:39 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:19:08 IST)" executed successfully
+2026-03-25 20:18:40 | INFO     | Database initialized.
+2026-03-25 20:18:42 | INFO     | Database initialized.
+2026-03-25 20:18:44 | INFO     | Database initialized.
+2026-03-25 20:18:46 | INFO     | Database initialized.
+2026-03-25 20:18:49 | INFO     | Database initialized.
+2026-03-25 20:18:51 | INFO     | Database initialized.
+2026-03-25 20:18:53 | INFO     | Database initialized.
+2026-03-25 20:18:55 | INFO     | Database initialized.
+2026-03-25 20:18:58 | INFO     | Database initialized.
+2026-03-25 20:19:00 | INFO     | Database initialized.
+2026-03-25 20:19:02 | INFO     | Database initialized.
+2026-03-25 20:19:03 | INFO     | Database initialized.
+2026-03-25 20:19:04 | INFO     | Database initialized.
+2026-03-25 20:19:06 | INFO     | Database initialized.
+2026-03-25 20:19:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:19:38 IST)" (scheduled at 2026-03-25 20:19:08.775213+05:30)
+2026-03-25 20:19:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:19:08 | INFO     | Live tick: 30 records in 26.8ms
+2026-03-25 20:19:08 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=10.18 vs target=12.00 (deviation 15.2%)
+2026-03-25 20:19:08 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 98.4ms \u2500\u2500\u2500
+2026-03-25 20:19:08 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:19:38 IST)" executed successfully
+2026-03-25 20:19:09 | INFO     | Database initialized.
+2026-03-25 20:19:11 | INFO     | Database initialized.
+2026-03-25 20:19:13 | INFO     | Database initialized.
+2026-03-25 20:19:16 | INFO     | Database initialized.
+2026-03-25 20:19:18 | INFO     | Database initialized.
+2026-03-25 20:19:20 | INFO     | Database initialized.
+2026-03-25 20:19:23 | INFO     | Database initialized.
+2026-03-25 20:19:25 | INFO     | Database initialized.
+2026-03-25 20:19:27 | INFO     | Database initialized.
+2026-03-25 20:19:30 | INFO     | Database initialized.
+2026-03-25 20:19:32 | INFO     | Database initialized.
+2026-03-25 20:19:34 | INFO     | Database initialized.
+2026-03-25 20:19:37 | INFO     | Database initialized.
+2026-03-25 20:19:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:20:08 IST)" (scheduled at 2026-03-25 20:19:38.775213+05:30)
+2026-03-25 20:19:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:19:38 | INFO     | Live tick: 30 records in 10.8ms
+2026-03-25 20:19:38 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 26.1ms \u2500\u2500\u2500
+2026-03-25 20:19:38 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:20:08 IST)" executed successfully
+2026-03-25 20:19:38 | INFO     | Database initialized.
+2026-03-25 20:19:40 | INFO     | Database initialized.
+2026-03-25 20:19:41 | INFO     | Database initialized.
+2026-03-25 20:19:42 | INFO     | Database initialized.
+2026-03-25 20:19:44 | INFO     | Database initialized.
+2026-03-25 20:19:47 | INFO     | Database initialized.
+2026-03-25 20:19:49 | INFO     | Database initialized.
+2026-03-25 20:19:51 | INFO     | Database initialized.
+2026-03-25 20:19:53 | INFO     | Database initialized.
+2026-03-25 20:19:55 | INFO     | Database initialized.
+2026-03-25 20:19:58 | INFO     | Database initialized.
+2026-03-25 20:20:00 | INFO     | Database initialized.
+2026-03-25 20:20:03 | INFO     | Database initialized.
+2026-03-25 20:20:05 | INFO     | Database initialized.
+2026-03-25 20:20:08 | INFO     | Database initialized.
+2026-03-25 20:20:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:20:38 IST)" (scheduled at 2026-03-25 20:20:08.775213+05:30)
+2026-03-25 20:20:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:20:08 | INFO     | Live tick: 30 records in 197.3ms
+2026-03-25 20:20:09 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 515.6ms \u2500\u2500\u2500
+2026-03-25 20:20:09 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:20:38 IST)" executed successfully
+2026-03-25 20:20:10 | INFO     | Database initialized.
+2026-03-25 20:20:13 | INFO     | Database initialized.
+2026-03-25 20:20:15 | INFO     | Database initialized.
+2026-03-25 20:20:18 | INFO     | Database initialized.
+2026-03-25 20:20:20 | INFO     | Database initialized.
+2026-03-25 20:20:23 | INFO     | Database initialized.
+2026-03-25 20:20:25 | INFO     | Database initialized.
+2026-03-25 20:20:28 | INFO     | Database initialized.
+2026-03-25 20:20:31 | INFO     | Database initialized.
+2026-03-25 20:20:33 | INFO     | Database initialized.
+2026-03-25 20:20:35 | INFO     | Database initialized.
+2026-03-25 20:20:38 | INFO     | Database initialized.
+2026-03-25 20:20:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:21:08 IST)" (scheduled at 2026-03-25 20:20:38.775213+05:30)
+2026-03-25 20:20:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:20:38 | INFO     | Live tick: 30 records in 130.6ms
+2026-03-25 20:20:39 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 483.7ms \u2500\u2500\u2500
+2026-03-25 20:20:39 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:21:08 IST)" executed successfully
+2026-03-25 20:20:40 | INFO     | Database initialized.
+2026-03-25 20:20:42 | INFO     | Database initialized.
+2026-03-25 20:20:44 | INFO     | Database initialized.
+2026-03-25 20:20:45 | INFO     | Database initialized.
+2026-03-25 20:20:47 | INFO     | Database initialized.
+2026-03-25 20:20:49 | INFO     | Database initialized.
+2026-03-25 20:20:52 | INFO     | Database initialized.
+2026-03-25 20:20:54 | INFO     | Database initialized.
+2026-03-25 20:20:56 | INFO     | Database initialized.
+2026-03-25 20:20:59 | INFO     | Database initialized.
+2026-03-25 20:21:01 | INFO     | Database initialized.
+2026-03-25 20:21:03 | INFO     | Database initialized.
+2026-03-25 20:21:06 | INFO     | Database initialized.
+2026-03-25 20:21:08 | INFO     | Database initialized.
+2026-03-25 20:21:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:21:38 IST)" (scheduled at 2026-03-25 20:21:08.775213+05:30)
+2026-03-25 20:21:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:21:09 | INFO     | Live tick: 30 records in 208.3ms
+2026-03-25 20:21:09 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 554.4ms \u2500\u2500\u2500
+2026-03-25 20:21:09 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:21:38 IST)" executed successfully
+2026-03-25 20:21:10 | INFO     | Database initialized.
+2026-03-25 20:21:13 | INFO     | Database initialized.
+2026-03-25 20:21:15 | INFO     | Database initialized.
+2026-03-25 20:21:17 | INFO     | Database initialized.
+2026-03-25 20:21:20 | INFO     | Database initialized.
+2026-03-25 20:21:22 | INFO     | Database initialized.
+2026-03-25 20:21:23 | INFO     | Database initialized.
+2026-03-25 20:21:25 | INFO     | Database initialized.
+2026-03-25 20:21:28 | INFO     | Database initialized.
+2026-03-25 20:21:30 | INFO     | Database initialized.
+2026-03-25 20:21:33 | INFO     | Database initialized.
+2026-03-25 20:21:35 | INFO     | Database initialized.
+2026-03-25 20:21:37 | INFO     | Database initialized.
+2026-03-25 20:21:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:22:08 IST)" (scheduled at 2026-03-25 20:21:38.775213+05:30)
+2026-03-25 20:21:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:21:38 | INFO     | Live tick: 30 records in 101.0ms
+2026-03-25 20:21:39 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=9.45 vs target=12.00 (deviation 21.2%)
+2026-03-25 20:21:39 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 450.2ms \u2500\u2500\u2500
+2026-03-25 20:21:39 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:22:08 IST)" executed successfully
+2026-03-25 20:21:40 | INFO     | Database initialized.
+2026-03-25 20:21:42 | INFO     | Database initialized.
+2026-03-25 20:21:45 | INFO     | Database initialized.
+2026-03-25 20:21:47 | INFO     | Database initialized.
+2026-03-25 20:21:50 | INFO     | Database initialized.
+2026-03-25 20:21:52 | INFO     | Database initialized.
+2026-03-25 20:21:54 | INFO     | Database initialized.
+2026-03-25 20:21:57 | INFO     | Database initialized.
+2026-03-25 20:21:59 | INFO     | Database initialized.
+2026-03-25 20:22:01 | INFO     | Database initialized.
+2026-03-25 20:22:04 | INFO     | Database initialized.
+2026-03-25 20:22:06 | INFO     | Database initialized.
+2026-03-25 20:22:08 | INFO     | Database initialized.
+2026-03-25 20:22:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:22:38 IST)" (scheduled at 2026-03-25 20:22:08.775213+05:30)
+2026-03-25 20:22:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:22:08 | INFO     | Live tick: 30 records in 137.0ms
+2026-03-25 20:22:09 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=9.81 vs target=12.00 (deviation 18.3%)
+2026-03-25 20:22:09 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 547.5ms \u2500\u2500\u2500
+2026-03-25 20:22:09 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:22:38 IST)" executed successfully
+2026-03-25 20:22:10 | INFO     | Database initialized.
+2026-03-25 20:22:13 | INFO     | Database initialized.
+2026-03-25 20:22:15 | INFO     | Database initialized.
+2026-03-25 20:22:17 | INFO     | Database initialized.
+2026-03-25 20:22:20 | INFO     | Database initialized.
+2026-03-25 20:22:21 | ERROR    | Task exception was never retrieved
+future: <Task finished name='Task-31161' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\Dheeraj Muley\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\websocket.py:1111> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\Dheeraj Muley\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\websocket.py", line 1113, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Dheeraj Muley\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\websocket.py", line 1115, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2026-03-25 20:22:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:23:08 IST)" (scheduled at 2026-03-25 20:22:38.775213+05:30)
+2026-03-25 20:22:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:22:38 | INFO     | Live tick: 30 records in 24.4ms
+2026-03-25 20:22:38 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 77.7ms \u2500\u2500\u2500
+2026-03-25 20:22:38 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:23:08 IST)" executed successfully
+2026-03-25 20:23:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:23:38 IST)" (scheduled at 2026-03-25 20:23:08.775213+05:30)
+2026-03-25 20:23:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:23:08 | INFO     | Live tick: 30 records in 24.4ms
+2026-03-25 20:23:08 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 65.3ms \u2500\u2500\u2500
+2026-03-25 20:23:08 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:23:38 IST)" executed successfully
+2026-03-25 20:23:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:24:08 IST)" (scheduled at 2026-03-25 20:23:38.775213+05:30)
+2026-03-25 20:23:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:23:38 | INFO     | Live tick: 30 records in 23.1ms
+2026-03-25 20:23:38 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=9.97 vs target=12.00 (deviation 16.9%)
+2026-03-25 20:23:38 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 90.7ms \u2500\u2500\u2500
+2026-03-25 20:23:38 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:24:08 IST)" executed successfully
+2026-03-25 20:24:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:24:38 IST)" (scheduled at 2026-03-25 20:24:08.775213+05:30)
+2026-03-25 20:24:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:24:08 | INFO     | Live tick: 30 records in 21.8ms
+2026-03-25 20:24:08 | WARNING  | [THRESHOLD] KPI breach on Revenue ($M): current=9.90 vs target=12.00 (deviation 17.5%)
+2026-03-25 20:24:08 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 84.3ms \u2500\u2500\u2500
+2026-03-25 20:24:08 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:24:38 IST)" executed successfully
+2026-03-25 20:24:38 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:25:08 IST)" (scheduled at 2026-03-25 20:24:38.775213+05:30)
+2026-03-25 20:24:38 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:24:38 | INFO     | Live tick: 30 records in 26.3ms
+2026-03-25 20:24:38 | WARNING  | [THRESHOLD] KPI breach on Conversion Rate: current=3.69 vs target=4.50 (deviation 18.0%)
+2026-03-25 20:24:38 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 1 alerts in 91.9ms \u2500\u2500\u2500
+2026-03-25 20:24:38 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:25:08 IST)" executed successfully
+2026-03-25 20:25:08 | INFO     | Running job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:25:38 IST)" (scheduled at 2026-03-25 20:25:08.775213+05:30)
+2026-03-25 20:25:08 | INFO     | \u2500\u2500\u2500 Agent pipeline start \u2500\u2500\u2500
+2026-03-25 20:25:08 | INFO     | Live tick: 30 records in 15.6ms
+2026-03-25 20:25:08 | INFO     | \u2500\u2500\u2500 Agent pipeline done: 0 alerts in 34.6ms \u2500\u2500\u2500
+2026-03-25 20:25:08 | INFO     | Job "run_agent_pipeline (trigger: interval[0:00:30], next run at: 2026-03-25 20:25:38 IST)" executed successfully
