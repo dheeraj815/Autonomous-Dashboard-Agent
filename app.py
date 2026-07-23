@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -1368,10 +1367,13 @@ def main():
         with lc1:
             st.markdown(f'<div style="font-size:10px;color:{C_MUTED};letter-spacing:2px;margin-bottom:8px">◈ LIVE AGENT LOG</div>',
                         unsafe_allow_html=True)
-            if Path(LOG_PATH).exists():
-                with open(LOG_PATH, "r") as f:
-                    lines = f.readlines()[-MAX_LOG_LINES:]
-                log_text = "".join(reversed(lines))
+            log_file = Path(LOG_PATH)
+            if log_file.exists() and log_file.stat().st_size > 0:
+                # FIX: read with UTF-8 + errors="replace" so a stray non-UTF-8
+                # byte (e.g. 0x85) in the log file never crashes the app.
+                lines = log_file.read_text(
+                    encoding="utf-8", errors="replace"
+                ).splitlines(keepends=True)[-MAX_LOG_LINES:]
                 # Colour WARNING / CRITICAL lines
                 log_html = ""
                 for ln in reversed(lines):
