@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.mp4
+*.mkv
+*.mov
+*.db
+*.sqlite
+*.sqlite3
+*.log
+venv/
+.venv/
+.env
